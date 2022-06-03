@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Poppins:wght@200&display=swap');
+
 #header {
     padding: 30px;
     position: absolute;
@@ -6,10 +9,19 @@
     height: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type : none
+}
+
 #header ul {
     margin: 0;
     padding: 0;
 }
+
 
 #header li {
     list-style: none;
@@ -93,8 +105,24 @@
     text-transform: uppercase;
 }
 
-#footer {
+footer {
     background-color: black;
     padding: 90px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
 
+footer li a{
+    color: white;
+}
+
+footer ul {
+    padding: 0;
+}
+
+.logo {
+    font-size: 50px;
+    font-family: 'Abhaya Libre', serif;    
 }
